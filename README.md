@@ -2,6 +2,7 @@
 
 Machine learning application to classify blood pressure stage and suggest medication, based on user inputs (age, weight, gender, lifestyle, etc.).
 
+![Project Screenshot](Architecture_Diagram.jpg)
 ---
 
 ## Table of Contents
@@ -183,3 +184,9 @@ You should decide and add a license (e.g. MIT, Apache 2.0). Also create a `LICEN
 
 * The Python / ML ecosystem (pandas, scikit-learn, etc.)
 * Any tutorials, sample projects, or research papers that inspired parts of this work
+
+
+---
+
+## Frontend UI
+![Project Screenshot](Fronend_UI.png)
