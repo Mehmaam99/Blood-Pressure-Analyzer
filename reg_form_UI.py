@@ -3,6 +3,9 @@ import tkinter
 from tkinter import messagebox
 from tkinter import *
 
+
+pickle_model_path="model_pickle"
+
 root = tkinter.Tk()
 root.title("AI Diagnostic")
 root.geometry("1920x820")
@@ -268,7 +271,7 @@ def submit():
                 f.close()
                 messagebox.showinfo("showinfo", "Submitted to CSV")
                 import pickle
-                with open('C:\\Users\\admin\\model_pickle','rb') as file:
+                with open(pickle_model_path,'rb') as file:
                     pickle= pickle.load(file)
 
                 #print(pickle.predict([[1,0,1,0,0,0,1,1,3]]))
