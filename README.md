@@ -189,4 +189,4 @@ You should decide and add a license (e.g. MIT, Apache 2.0). Also create a `LICEN
 ---
 
 ## Frontend UI
-![Project Screenshot](Fronend_UI.png)
+![Project Screenshot](Frontend_UI.png)
