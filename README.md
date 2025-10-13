@@ -1,7 +1,8 @@
 # Blood Pressure Analyzer 🩺
 
 Machine learning application to classify blood pressure stage and suggest medication, based on user inputs (age, weight, gender, lifestyle, etc.).
-![Project Screenshot](Frontend_UI.png)
+
+![Project Screenshot](Architecture_Diagram.jpg)
 ---
 
 ## Table of Contents
@@ -87,6 +88,12 @@ You should document in code or a separate notebook how you handled missing value
 - The UI (`reg_form_UI.py`) loads the pickled model and uses it for inference on new data.
 
 If you have performance metrics (accuracy, precision, recall, ROC curves), include them here.
+
+
+---
+
+## Frontend UI
+![Project Screenshot](Frontend_UI.png)
 
 ---
 
@@ -183,3 +190,6 @@ You should decide and add a license (e.g. MIT, Apache 2.0). Also create a `LICEN
 
 * The Python / ML ecosystem (pandas, scikit-learn, etc.)
 * Any tutorials, sample projects, or research papers that inspired parts of this work
+
+
+
