@@ -93,7 +93,7 @@ If you have performance metrics (accuracy, precision, recall, ROC curves), inclu
 ## Usage
 
 1. Launch the UI:  
-   ```bash
+```bash
    python reg_form_UI.py
 ````
 
@@ -116,7 +116,6 @@ numpy
 pandas
 scikit-learn
 tkinter
-...
 ```
 
 To install:
@@ -131,32 +130,32 @@ pip install -r requirements.txt
 
 1. Clone the repository
 
-   ```bash
+```bash
    git clone https://github.com/Mehmaam99/Blood-Pressure-Analyzer.git
    cd Blood-Pressure-Analyzer
-   ```
+```
 2. (Optional) Create & activate a virtual environment
 
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate   # (Linux/macOS)
    venv\Scripts\activate      # (Windows)
-   ```
+```
 3. Install dependencies
 
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 4. (Optional) Retrain the model
 
-   ```bash
+```bash
    python "Blood Pressure Model.py"
-   ```
+```
 5. Run the GUI
 
-   ```bash
+```bash
    python reg_form_UI.py
-   ```
+```
 
 ---
 
